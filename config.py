@@ -1,5 +1,6 @@
 import os
 
+
 DB_DETAILS = {
     'dev': {
         'SOURCE_DB': {
@@ -18,3 +19,7 @@ DB_DETAILS = {
         }
     }
 }
+
+
+if __name__ == '__main__':
+    pass
