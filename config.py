@@ -5,7 +5,7 @@ DB_DETAILS = {
     'dev': {
         'SOURCE_DB': {
             'DB_TYPE': 'mysql',
-            'DB_HOST': 'localhost',
+            'DB_HOST': '127.0.0.1',
             'DB_NAME': 'retail_db',
             'DB_USER': os.environ.get('SOURCE_DB_USER'),
             'DB_PASS': os.environ.get('SOURCE_DB_PASS')
@@ -19,7 +19,3 @@ DB_DETAILS = {
         }
     }
 }
-
-
-if __name__ == '__main__':
-    pass
